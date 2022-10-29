@@ -11,7 +11,7 @@ function App() {
     <Buttons />
     <div className='slackngit'>
       <img src={imgs} alt="slack" className='slack' />
-      <img src={img} alt="git" className='git' />  
+      <a href="https://github.com/Jaynimi"><img src={img} alt="git" className='git' /></a>  
     </div>
     <Footer />
     </div>
