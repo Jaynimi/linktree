@@ -30,6 +30,10 @@
     top: 35px;
 }
 
+.dot {
+    display: none;
+}
+
 /*.buttons {
     justify-content: center;
     margin: 5px;
@@ -156,6 +160,29 @@ h4 {
     }
 
     .footerDiv1 {
-        margin-top: 50%;
+        margin-top: 40%;
+    }
+    .dot {
+    border: 1px dotted #3a3c3f;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    right: 8%;
+    top: 35px;
+    display: block;
+    }
+
+    .btn {
+        margin-right: 7%;
+        margin-left: 0%;
+    }
+
+    .internship {
+        margin-right: 50%;
+    }
+
+    .hng {
+        margin-right: 50%;
     }
 }
