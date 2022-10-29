@@ -35,7 +35,7 @@ const Home = () => {
            <a href="http://books.zuri.team/" className='buttons forA'>
              <button id="books">Zuri Books</button>
            </a>
-           <a href="https://books.zuri.team/python-for-beginners?ref_id=eyeslikejay" title='Handy tool to guide you and simplify coding in Python' className='buttons forA'>
+           <a href="https://books.zuri.team/python-for-beginners?ref_id=eyeslikejay" title='Handy tool to guide you  and simplify coding in Python' className='buttons forA'>
              <button id="book__python">Python Books</button>
            </a>
            <a href="https://background.zuri.team/" className='buttons forA'>
