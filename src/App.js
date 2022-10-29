@@ -9,8 +9,10 @@ function App() {
   return (
     <div className="App">
     <Buttons />
-    <img src={imgs} alt="slack" />
-    <img src={img} alt="git" />  
+    <div className='slackngit'>
+      <img src={imgs} alt="slack" className='slack' />
+      <img src={img} alt="git" className='git' />  
+    </div>
     <Footer />
     </div>
   );

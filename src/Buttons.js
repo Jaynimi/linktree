@@ -1,15 +1,21 @@
 import imgs from './kkk.jpg';
+import arrow from './imgs/arrow.png';
 
 const Home = () => {
     return ( 
-        <><div picMargin>
-        <nav className='pic'>
-            <img src={imgs} alt=""  id="profile__img" />
-        </nav>
-        <nav className='pic'>
-            <p>EyesLikeJay</p>
-        </nav>
+  <><div>
+        <div>
+          <nav className='pic'>
+              <img src={imgs} alt=""  id="profile__img" />
+          </nav>
+          <nav className='pic'>
+              <p className='jay'>EyesLikeJay</p>
+          </nav>
         </div>
+        <div className='arrow'>
+          <img src= {arrow} alt="" />
+        </div>
+    </div>
         <div className="btn">
         <div id='buttonsD'>
            <a href="https://twitter.com/eyeslikejay" className='buttons'>

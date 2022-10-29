@@ -1,16 +1,33 @@
 .pic {
     display: flex;
     justify-content: center;
+    margin-bottom: 0px;
+}
+
+.jay {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
 }
 
 #profile__img {
     display: flex;
     justify-content: center;
-    width: 5%;
+    width: 6%;
     height: 5%;
     border-radius: 100%;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+}
+
+.arrow {
+    border: 1px dotted #3a3c3f;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    right: 25%;
+    top: 35px;
 }
 
 /*.buttons {
@@ -28,18 +45,103 @@ a{
 button {
     direction: flex;
     justify-content: center;
+    font-weight: 400px;
+    font-size: 16px;
     width: 100%;
-    height: 60px;
+    height: 75px;
     border-radius: 10px;
     display: block;
     border: none;
-    margin: 10px;
+    margin: 20px;
     padding: 14px 28px;
     text-align: center;
-    
+    background-color: #eaecf0;
 }
 
 .btn {
-    margin: 40px 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 12%;
+    margin-right: 15%;
     justify-content: center;
+}
+
+.slackngit {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.slack {
+    margin-right: 8px;
+    padding: 0 0;
+    border: 0 0;
+}
+
+.git {
+    margin-left: 8px;
+    padding: 0 0;
+    border: 0 0;
+}
+
+.footerDiv2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-top: 2px solid #f2f4f6;
+    margin: 0 100px;
+}
+
+.footerDiv1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0;
+}
+
+.footer {
+
+}
+
+span {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #e7332b;
+    margin: 0 0;
+    padding: 0 0;
+    border: 0 0;
+}
+
+h3{
+    margin: 0 0;
+    padding: 0 0;
+    border: 0 0;
+    font-size: 25px;
+}
+
+p {
+    margin-top: 22px;
+    padding: 0 0;
+    border: 0 0;
+    font-size: 15px;
+    color: #8c94a3;
+}
+
+.internship {
+    margin: 0 0;
+    padding: 0 0;
+    border: 0 0;
+    font-size: 25;
+}
+
+h4 {
+    margin: 0 0;
+    padding: 0 0;
+    border: 0 0;
+}
+
+.footerImg {
+    margin-top: 22px;
+    padding: 0 0;
+    border: 0 0;
+    height: 32px; 
 }
