@@ -41,7 +41,7 @@ const Home = () => {
            <a href="https://background.zuri.team/" className='buttons forA' id="pitch" title='Verify your coders integrity'>
              <button>Background Check for Coders</button>
            </a>
-           <a href="https://books.zuri.team/design-rules" className='buttons forA' id="book__design">
+           <a href="https://books.zuri.team/design-rules" className='buttons forA' title='Get a free design book from Zuri' id="book__design">
              <button>Design Books</button>
            </a>
         </div>
