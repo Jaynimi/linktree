@@ -21,28 +21,28 @@ const Home = () => {
     </div>
         <div className="btn">
         <div id='buttonsD'>
-           <a href="https://twitter.com/eyeslikejay" className='buttons forA'>
-             <button id="twitter">Twitter Link</button>
+           <a href="https://twitter.com/eyeslikejay" className='buttons forA' id="twitter">
+             <button>Twitter Link</button>
            </a>
 
            {/*<a href="https://app.slack.com/client/T042F7V19Q8/C041JU70S5U">
              <button id="slack">Omoleegho Jonathan</button>
            </a>*/}
 
-           <a href="https://training.zuri.team/" className='buttons forA'>
-             <button id="btn__zuri">Zuri Team</button>
+           <a href="https://training.zuri.team/" className='buttons forA' id="btn__zuri">
+             <button>Zuri Team</button>
            </a>
-           <a href="http://books.zuri.team/" className='buttons forA'>
-             <button id="books">Zuri Books</button>
+           <a href="http://books.zuri.team/" className='buttons forA' id="books" title='Get useful books about coding and design'>
+             <button>Zuri Books</button>
            </a>
-           <a href="https://books.zuri.team/python-for-beginners?ref_id=eyeslikejay" title='Handy tool to guide you  and simplify coding in Python' className='buttons forA'>
-             <button id="book__python">Python Books</button>
+           <a href="https://books.zuri.team/python-for-beginners?ref_id=eyeslikejay" title='Handy tool to guide you  and simplify coding in Python' className='buttons forA' id="book__python">
+             <button>Python Books</button>
            </a>
-           <a href="https://background.zuri.team/" className='buttons forA'>
-             <button id="pitch">Background Check for Coders</button>
+           <a href="https://background.zuri.team/" className='buttons forA' id="pitch" title='Verify your coders integrity'>
+             <button>Background Check for Coders</button>
            </a>
-           <a href="https://books.zuri.team/design-rules" className='buttons forA'>
-             <button id="book__design">Design Books</button>
+           <a href="https://books.zuri.team/design-rules" className='buttons forA' id="book__design">
+             <button>Design Books</button>
            </a>
         </div>
         </div>
