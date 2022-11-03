@@ -1,5 +1,7 @@
 import imgs from './kkk.jpg';
 import arrow from './imgs/arrow.png';
+import imgis from './imgs/slackIcon.png';
+import img from './imgs/githubIcon.png';
 
 const Home = () => {
     return ( 
@@ -44,10 +46,16 @@ const Home = () => {
            <a href="https://books.zuri.team/design-rules" className='buttons forA' title='Get a free design book from Zuri' id="book__design">
              <button>Design Books</button>
            </a>
+           <a href="/contact" className='buttons forA'>
+              <button>Contact Me</button>
+           </a>
         </div>
         </div>
         <div>
-
+        <div className='slackngit'>
+          <img src={imgis} alt="slack" className='slack' />
+          <a href="https://github.com/Jaynimi"><img src={img} alt="git" className='git' /></a>  
+        </div>
         </div></>
      );
 }
