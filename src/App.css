@@ -160,18 +160,40 @@ h4 {
 }
 
 .contactContainer {
-    height: 60vh;
+    height: 62vh;
     display: flex;
     justify-content: center;
-    padding-top: 15vh;
+    padding-top: 8vh;
     padding-bottom: 20vh;
-    border-bottom: 2px solid #f2f4f6;
-    margin-bottom: 1%;
+}
+
+form {
+    width: 50vw;
 }
 
 .footerLine {
-    border-bottom: 12px solid #f2f4f6;
+    border-bottom: 2px solid #f2f4f6;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
+/*
+.footerLine:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 5px;
+    width: 50%;
+    border-top: 3px solid #000;
+  }*/
+
+  .borderTry {
+    display: flex;
+    flex-direction: column;
+  }
 
 .flnames {
     display: flex;
@@ -219,6 +241,7 @@ input {
     font-weight: 400;
     font-size: 12px;
     text-indent: 10px;
+    margin-top: 2%;
 }
 
 textarea {
@@ -235,11 +258,18 @@ textarea {
     text-indent: 10px;
     font-size: 13px;
     letter-spacing: -1px;
+    width: 100%;
    /* padding-top: 5px; */
 }
 
-#message {
-    padding-top: 0;
+#btn__submit {
+    width: 100%;
+    margin-top: 5%;
+    height: 9%;
+    border: 0;
+    border-radius: 8px;
+    background-color: #1570ef;
+    color: white;
 }
 
 

@@ -1,6 +1,7 @@
 
 const Contact = () => {
     return ( 
+        <div className="borderTry">
         <div className="contactContainer">
             
             <form name="contact" class="form">
@@ -34,15 +35,18 @@ const Contact = () => {
                 </textarea>
                 </div>
                 <div>
-                <input type="radio" id="radio"></input>
-                <label htmlFor="radio"> You agree to providing your data to Eyeslikejay who may contact you</label>
+                <input type="checkbox" id="radio"></input>
+                <label htmlFor="radio" className="contactAgree"> You agree to providing your data to Eyeslikejay who may contact you</label>
                 </div>
                 <button type="submit" id="btn__submit"  className="">
                 Send Message
                 </button>
             </form>
+        </div>
+            <div>
             <div className="footerLine">
-                <p></p>
+                
+            </div>
             </div>
         </div>
      );
