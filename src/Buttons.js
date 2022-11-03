@@ -23,31 +23,31 @@ const Home = () => {
     </div>
         <div className="btn">
         <div id='buttonsD'>
-           <a href="https://twitter.com/eyeslikejay" className='buttons forA' id="twitter">
-             <button>Twitter Link</button>
+           <a href="https://twitter.com/eyeslikejay" className='forA' id="twitter">
+             <button className='buttons'>Twitter Link</button>
            </a>
 
            {/*<a href="https://app.slack.com/client/T042F7V19Q8/C041JU70S5U">
              <button id="slack">Omoleegho Jonathan</button>
            </a>*/}
 
-           <a href="https://training.zuri.team/" className='buttons forA' id="btn__zuri">
-             <button>Zuri Team</button>
+           <a href="https://training.zuri.team/" className='forA' id="btn__zuri">
+             <button className='buttons'>Zuri Team</button>
            </a>
-           <a href="http://books.zuri.team/" className='buttons forA' id="books" title='Get useful books about coding and design'>
-             <button>Zuri Books</button>
+           <a href="http://books.zuri.team/" className='forA' id="books" title='Get useful books about coding and design'>
+             <button className='buttons'>Zuri Books</button>
            </a>
-           <a href="https://books.zuri.team/python-for-beginners?ref_id=eyeslikejay" title='Handy tool to guide you  and simplify coding in Python' className='buttons forA' id="book__python">
-             <button>Python Books</button>
+           <a href="https://books.zuri.team/python-for-beginners?ref_id=eyeslikejay" title='Handy tool to guide you  and simplify coding in Python' className='forA' id="book__python">
+             <button className='buttons'>Python Books</button>
            </a>
-           <a href="https://background.zuri.team/" className='buttons forA' id="pitch" title='Verify your coders integrity'>
-             <button>Background Check for Coders</button>
+           <a href="https://background.zuri.team/" className='forA' id="pitch" title='Verify your coders integrity'>
+             <button className='buttons'>Background Check for Coders</button>
            </a>
-           <a href="https://books.zuri.team/design-rules" className='buttons forA' title='Get a free design book from Zuri' id="book__design">
-             <button>Design Books</button>
+           <a href="https://books.zuri.team/design-rules" className='forA' title='Get a free design book from Zuri' id="book__design">
+             <button className='buttons'>Design Books</button>
            </a>
-           <a href="/contact" className='buttons forA'>
-              <button>Contact Me</button>
+           <a href="/contact" className='forA'>
+              <button className='buttons'>Contact Me</button>
            </a>
         </div>
         </div>
