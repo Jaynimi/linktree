@@ -6,7 +6,7 @@ const Contact = () => {
             
             <form name="contact" class="form">
                 <h2>Contact Me</h2>
-                <p>Hi there, contact me to ask about anything you have in mind</p>
+                <p>Hi there, contact me to ask about anything you have in mind.</p>
                 <div class="flnames">
                 <div className="contactNameBoxes fname">
                 <label htmlFor="first-name" className="">
