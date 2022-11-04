@@ -458,6 +458,9 @@ input#radio {
         padding-top: 6vh;
         margin-bottom: 25%;
     }
+    form {
+        height: 90%;
+    }
 
     .agreeDiv {
         display: flex;
