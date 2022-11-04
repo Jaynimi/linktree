@@ -367,7 +367,7 @@ div label.contactAgree {
     }
 
     form {
-        width: 85%;
+        width: 95%;
     }
 
     .contactHeading {
@@ -376,6 +376,43 @@ div label.contactAgree {
     }
 
     .contactGreeting {
+        font-size: 16px;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+
+    .flnames {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .fname {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 5%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .lname {
+        width: 100%;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 5%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contactEmail {
+        margin-top: 0;
+        margin-bottom: 5%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    textarea {
         font-size: 14px;
     }
 }
