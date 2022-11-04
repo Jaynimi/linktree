@@ -171,7 +171,7 @@ form {
     /*width: 50vw;*/
 }
 
-.footerLine {
+.contactFooterLine {
     border-bottom: 2px solid #f2f4f6;
     justify-content: center;
     display: flex;
@@ -379,7 +379,7 @@ input#radio {
 
     form {
         margin: 0;
-        width: 95%;
+        width: 90%;
     }
 
     .contactHeading {
@@ -446,6 +446,7 @@ input#radio {
 
     .contactContainer {
         padding-top: 6vh;
+        margin-bottom: 25%;
     }
 
     .agreeDiv {
@@ -456,4 +457,5 @@ input#radio {
     .checkboxDiv {
         margin-top: ;
     }
+
 }
