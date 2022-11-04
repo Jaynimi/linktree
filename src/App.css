@@ -451,7 +451,13 @@ input#radio {
     }
 
     .contactAgree {
-        font-size: 14px;
+        font-size: 13px;
+        line-height: 1%;
+    }
+
+    .agreeTextDiv {
+        margin-top: 1%;
+        margin-bottom: 0;
     }
 
     .contactContainer {
