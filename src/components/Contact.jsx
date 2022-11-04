@@ -31,7 +31,7 @@ const Contact = () => {
                     <label htmlFor="message" className="contactLabel messageQuery">
                         Message
                     </label>
-                    <textarea id ="message" name="message" placeholder="Send me a message and i will reply you as soon as possible...">
+                    <textarea id ="message" name="message" placeholder="Send me a message and I will reply you as soon as possible...">
                     </textarea>
                     </div>
                     <div className="agreeDiv">
