@@ -465,6 +465,7 @@ input#radio {
     .agreeDiv {
         display: flex;
         flex-direction: row;
+        margin-bottom: 2%;
     }
 
     .checkboxDiv {
