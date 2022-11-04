@@ -168,7 +168,7 @@ h4 {
 }
 
 form {
-    width: 50vw;
+    /*width: 50vw;*/
 }
 
 .footerLine {
@@ -451,5 +451,9 @@ input#radio {
     .agreeDiv {
         display: flex;
         flex-direction: row;
+    }
+
+    .checkboxDiv {
+        margin-top: ;
     }
 }
