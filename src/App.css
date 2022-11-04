@@ -304,7 +304,7 @@ input#radio {
 }
 
 
-div label.contactAgree {
+.contactAgree {
     font-size: 16px;
     color: #475467;
     /*padding-bottom: 2%;
@@ -367,6 +367,7 @@ div label.contactAgree {
     }
 
     form {
+        margin: 0;
         width: 95%;
     }
 
@@ -388,10 +389,15 @@ div label.contactAgree {
         margin: 0;
     }
 
+    input {
+        font-size: 12px;
+        height: 5vh;
+    }
+
     .fname {
         width: 100%;
         margin-top: 0;
-        margin-bottom: 5%;
+        margin-bottom: 4%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -400,14 +406,14 @@ div label.contactAgree {
         width: 100%;
         margin: 0;
         margin-top: 0;
-        margin-bottom: 5%;
+        margin-bottom: 4%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .contactEmail {
         margin-top: 0;
-        margin-bottom: 5%;
+        margin-bottom: 4%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -415,4 +421,20 @@ div label.contactAgree {
     textarea {
         font-size: 14px;
     }
+
+    .contactMessage {
+        margin-top: 0;
+        margin-bottom: 4%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contactAgree {
+        font-size: 14px;
+    }
+
+    .contactContainer {
+        padding-top: 6vh;
+    }
+
 }
