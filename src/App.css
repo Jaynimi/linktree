@@ -439,6 +439,10 @@ input#radio {
         font-size: 13px;
     }
 
+    .messageQuery {
+        margin-bottom: 1%;
+    }
+
     .contactMessage {
         margin-top: 0;
         margin-bottom: 4%;

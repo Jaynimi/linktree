@@ -28,7 +28,7 @@ const Contact = () => {
                     <input type="email" id="email" name="email" placeholder="yourname@email.com" />
                     </div>
                     <div className="contactMessage">
-                    <label htmlFor="message" className="contactLabel">
+                    <label htmlFor="message" className="contactLabel messageQuery">
                         Message
                     </label>
                     <textarea id ="message" name="message" placeholder="Send me a message and i will reply you as soon as possible...">
