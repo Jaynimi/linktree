@@ -46,7 +46,7 @@ const Home = () => {
            <a href="https://books.zuri.team/design-rules" className='forA' title='Get a free design book from Zuri' id="book__design">
              <button className='buttons'>Design Books</button>
            </a>
-           <a href="/contact" className='forA'>
+           <a href="/contact" className='forA' id='contact'>
               <button className='buttons'>Contact Me</button>
            </a>
         </div>

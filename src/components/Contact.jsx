@@ -18,7 +18,7 @@ const Contact = () => {
                     <label htmlFor="last-name" className="contactLabel">
                         Last name
                     </label>
-                    <input type="text" id="Last_name" name="First-Name" placeholder="Enter your last name" />
+                    <input type="text" id="last_name" name="Last-Name" placeholder="Enter your last name" />
                     </div>
                     </div>
                     <div className="contactEmail">
